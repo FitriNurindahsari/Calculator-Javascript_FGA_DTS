@@ -1,7 +1,7 @@
 .calculator {
     text-align: center;
     margin: 0 auto;
-    padding-top: 200px;
+    padding: 35px;
     width: 400px;
 }
 
@@ -40,7 +40,7 @@ button {
 }
 
 .operator, .equal-sign {
-    background-color: orange;
+    background-color: blue;
 }
 
 button:hover {
@@ -48,5 +48,25 @@ button:hover {
 }
 
 .operator:hover, .equal-sign:hover {
-    background-color: darkorange;
+    background-color: darkblue;
+}
+
+.header {
+    background-color: mediumblue;
+    color: #ffffff;
+    padding: 5px;
+}
+
+body {
+    background-image: url(https://www.pngmart.com/files/7/Abstract-Watercolor-PNG-Background-Image.png);
+    background-size: 100%;
+    background-position: 5%;
+}
+
+.footer {
+    background-color: royalblue;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
 }
